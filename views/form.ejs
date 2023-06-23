@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <h1>Add a New Message</h1>
+    <form action="/new" method="post">
+        <div>
+            <label for="myName">Enter your name:</label>
+            <input type="text" id="myName" name="myName">
+        </div>
+        <div>
+            <label for="myMessage">Enter your message:</label>
+            <input type="text" id="myMessage" name="myMessage">
+        </div>
+        <button type="submit">Confirm</button>
+    </form>
+    <script src="/public/main.js"></script>
+</body>
+</html>
